@@ -1,6 +1,6 @@
 /** @jsxImportSource react */
 
-// @ts-ignore
+// @ts-nocheck
 import { qwikify$ } from "@builder.io/qwik-react";
 
 import { Popover } from "@headlessui/react";
