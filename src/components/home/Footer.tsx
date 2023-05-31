@@ -2,13 +2,12 @@
 
 import { qwikify$ } from "@builder.io/qwik-react";
 
-const Hero = () => {
+const Footer = () => {
   return (
     <div>
-      <div>Hero</div>
+      <div>Footer</div>
     </div>
   );
 };
 
-
-export const QHero = qwikify$(Hero);
+export const QFooter = qwikify$(Footer);
