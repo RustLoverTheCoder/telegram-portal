@@ -11,7 +11,7 @@ export default component$(() => {
     <>
       <QHeader />
       <main>
-        <QHero />
+        <QHero client:idle />
         <QPrimaryFeatures />
         <QSecondaryFeatures />
       </main>
