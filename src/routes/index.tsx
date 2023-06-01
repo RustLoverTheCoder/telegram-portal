@@ -3,8 +3,6 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import { QFooter } from "~/components/home/Footer";
 import { QHeader } from "~/components/home/Header";
 import { QHero } from "~/components/home/Hero";
-import { QPrimaryFeatures } from "~/components/home/PrimaryFeatures";
-import { QSecondaryFeatures } from "~/components/home/SecondaryFeatures";
 
 export default component$(() => {
   return (
@@ -12,8 +10,6 @@ export default component$(() => {
       <QHeader />
       <main>
         <QHero client:idle />
-        <QPrimaryFeatures />
-        <QSecondaryFeatures />
       </main>
       <QFooter />
     </>
