@@ -1,5 +1,4 @@
 /** @jsxImportSource react */
-// @ts-nocheck
 
 import { qwikify$ } from "@builder.io/qwik-react";
 
@@ -134,7 +133,7 @@ function Chart({
   const pathWidth = useMotionValue(0);
   const [interactionEnabled, setInteractionEnabled] = useState(false);
 
-  const path = "";
+  let path = "";
   const points = [];
 
   for (let index = 0; index < prices.length; index++) {
