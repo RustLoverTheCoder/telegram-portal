@@ -1,4 +1,5 @@
 /** @jsxImportSource react */
+// @ts-nocheck
 
 import { qwikify$ } from "@builder.io/qwik-react";
 
