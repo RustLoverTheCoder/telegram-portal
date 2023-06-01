@@ -8,10 +8,10 @@ import { AnimatePresence, motion } from "framer-motion";
 export const NavLinks: FC = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   return [
-    ["Features", "#features"],
-    ["Reviews", "#reviews"],
-    ["Pricing", "#pricing"],
-    ["FAQs", "#faqs"],
+    ["Docs", "/docs"],
+    ["News", "/news"],
+    ["API", "/api"],
+    ["FAQs", "/faqs"],
   ].map(([label, href], index) => (
     <a
       key={label}
