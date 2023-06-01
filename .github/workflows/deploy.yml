@@ -22,8 +22,12 @@ jobs:
         with:
           node-version: lts/*
 
-      - name: Build step
-        run: npm run build # 📝 Update the build command(s)
+      - name: Install dependencies
+        run: yarn
+  
+        # Not using npm? Change `npm run build` to `yarn build` or `pnpm run build`
+      - name: Build qwik
+        run: yarn run build
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
